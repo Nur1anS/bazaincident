@@ -1,0 +1,14 @@
+
+
+.form{
+
+top: calc(50% - высота_блока/2);
+left: calc(50% - ширина_блока/2);
+
+
+}
+
+span{
+display: block;
+text-align: right;
+}

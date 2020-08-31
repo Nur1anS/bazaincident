@@ -1,0 +1,21 @@
+[0;1;32m●[0m mariadb.service - MariaDB 10.1.44 database server
+   Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2020-07-29 11:50:06 +06; 4min 8s ago
+     Docs: man:mysqld(8)
+           https://mariadb.com/kb/en/library/systemd/
+ Main PID: 19494 (mysqld)
+   Status: "Taking your SQL requests now..."
+    Tasks: 27 (limit: 4391)
+   CGroup: /system.slice/mariadb.service
+           └─19494 /usr/sbin/mysqld
+
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39minformation_schema[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mmysql[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mperformance_schema[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mPhase 6/7: Checking and upgrading tables[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mProcessing databases[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39minformation_schema[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mperformance_schema[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mPhase 7/7: Running 'FLUSH PRIVILEGES'[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19530]: [0;1;39m[0;1;31m[0;1;39mOK[0m
+июл 29 11:50:10 n-123 /etc/mysql/debian-start[19830]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables

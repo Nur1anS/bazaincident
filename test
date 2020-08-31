@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+ <head>
+  
+ 
+   <title>TEST111</title>
+<body>
+	<script type="text/javascript">
+
+
+var number = 21;
+var string;
+string = "IS JAVA SCRITPs";
+var floatNumber = 1.23;
+
+document.write("Variable number = " + number);		
+
+
+	</script>
+
+ 
+</body>
+
+</html>
